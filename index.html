@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <title>Producto</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="https://w7.pngwing.com/pngs/528/425/png-transparent-smile-emoji-happy-happiness-happy-face-yellow-smiling-message-social-networks-whatsapp-thumbnail.png">
+</head>
+
+<body>
+  <div class="row">
+
+    <div >
+      <form>
+        <input id="inputId" class="form-control" placeholder="producto" type="text">
+        <button id="boton" type="submit" class="btn btn-primary">Buscar</button>
+      </form>
+      <div class="wrapper">
+        <div class="clash-card barbarian poke">
+          
+          <div class="producto-container"><br><br>
+            <div>
+              <img id="imagenP" src="" alt="">
+              <h5>Producto:</h5>
+              <h6 id="titulo"> </h6>
+              <h5>Precio: </h5>
+              <h6 id="precio"></h6>
+              <h5>Descripción: </h5>
+              <h6 id="descripcion"></h6>
+              <h5>Categoria: </h5>
+              <h6 id="categoria"></h6>
+            </div>
+          </div>
+        </div>
+        <button id="boton" type="submit" class="btn btn-primary" onclick="agregarProducto()">Crear</button>
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
